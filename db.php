@@ -1,7 +1,7 @@
 <?php
 
 function conn(){
-    $con = new mysqli('localhost', 'root', '', 'CMS');
+    $con = new mysqli('localhost', 'root', '', 'cms');
 
     if($con->connect_error){
         die("Connection Failed!");
