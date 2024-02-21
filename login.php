@@ -85,6 +85,19 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
   <title>Login</title>
 </head>
 <body>
+<div class="nav">
+        <div class="logo">
+            <p><a href="home.php">Logo</a> </p>
+        </div>
+
+        <div class="right-links">
+
+            
+
+            <a href="php/logout.php"> <button class="btn">Log Out</button> </a>
+
+        </div>
+    </div>
 
 
 

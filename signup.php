@@ -58,19 +58,6 @@ if($_SERVER['REQUEST_METHOD'] === "POST"){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 
@@ -83,6 +70,19 @@ if($_SERVER['REQUEST_METHOD'] === "POST"){
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+<div class="nav">
+        <div class="logo">
+            <p><a href="home.php">Logo</a> </p>
+        </div>
+
+        <div class="right-links">
+
+            
+
+            <a href="php/logout.php"> <button class="btn">Log Out</button> </a>
+
+        </div>
+    </div>
       <div class="container">
         <div class="box form-box">
             <header>Sign Up</header>
